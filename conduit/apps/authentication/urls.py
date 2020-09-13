@@ -4,5 +4,5 @@ from .views import RegistrationAPIView
 
 app_name = 'authentication'
 urlpatterns = [
-    path('users/', RegistrationAPIView.as_view(), ),
+    path('users/', RegistrationAPIView.as_view()),
 ]
